@@ -40,3 +40,10 @@ nav a:active {
 article + article {
   border-top: solid black 2px;
 }
+::selection {
+  color: white;
+  background-color: black;
+}
+.profession::after {
+  content: "💻";
+}
