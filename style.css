@@ -50,3 +50,22 @@ article + article {
 .profession::after {
   content: "💻";
 }
+.experience-head {
+  display: inline-block;
+}
+.experience-sub {
+  display: inline-block;
+}
+.article-head {
+  position: relative;
+  left: -10px;
+}
+.hire {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  padding: 8px;
+  background-color: blanchedalmond;
+  color: salmon;
+  font-weight: bold;
+}
