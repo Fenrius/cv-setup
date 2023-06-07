@@ -4,6 +4,8 @@
 }
 html {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  color: azure;
 }
 body {
   margin: 0px;
@@ -17,6 +19,8 @@ h3 {
   text-align: center;
   background-color: darkolivegreen;
   padding: 30px;
+  margin: 10px;
+  border-radius: 4px;
 }
 .maine {
   padding: 16px;
@@ -59,6 +63,9 @@ article + article {
 .article-head {
   position: relative;
   left: -15px;
+}
+.contacta {
+  font-weight: bold;
 }
 .hire {
   position: absolute;
