@@ -58,6 +58,8 @@ nav a {
 }
 .nave :hover {
   background-color: blanchedalmond;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
 }
 .nave :active {
   color: burlywood;
