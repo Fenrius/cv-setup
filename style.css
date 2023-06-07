@@ -16,7 +16,7 @@ h3 {
 .header {
   text-align: center;
   background-color: darkolivegreen;
-  padding: 60px;
+  padding: 30px;
 }
 .maine {
   padding: 16px;
@@ -27,18 +27,18 @@ main article {
 nav {
   color: darkolivegreen;
 }
-nav li {
+.nave {
   padding-top: 20px;
 }
 nav a {
   font-weight: bold;
   color: salmon;
 }
-nav a:hover {
-  background-color: burlywood;
+.nave :hover {
+  background-color: blanchedalmond;
 }
-nav a:active {
-  color: blanchedalmond;
+.nave :active {
+  color: burlywood;
 }
 article + article {
   border-top: solid black 2px;
@@ -58,13 +58,14 @@ article + article {
 }
 .article-head {
   position: relative;
-  left: -10px;
+  left: -15px;
 }
 .hire {
   position: absolute;
-  right: 16px;
-  top: 16px;
-  padding: 8px;
+  border-radius: 4px;
+  right: 20px;
+  top: 20px;
+  padding: 10px;
   background-color: blanchedalmond;
   color: salmon;
   font-weight: bold;
