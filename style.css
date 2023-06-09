@@ -29,9 +29,12 @@ h3 {
 .header {
   text-align: center;
   background-color: darkolivegreen;
-  padding: 3rem;
+  padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 div {
   font-size: 3rem;
@@ -96,6 +99,7 @@ article + article {
 .article-head {
   position: relative;
   left: -1rem;
+  z-index: 1;
 }
 .contacta {
   font-weight: bold;
