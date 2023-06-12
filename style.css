@@ -28,7 +28,7 @@ h3 {
 }
 .header {
   text-align: center;
-  background-color: darkolivegreen;
+  background-image: linear-gradient(darkolivegreen, #283618);
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
@@ -50,7 +50,6 @@ main article {
   margin-top: 2rem;
 }
 nav {
-  color: darkolivegreen;
   display: flex;
   flex-direction: column;
 }
@@ -60,6 +59,9 @@ nav {
     flex-direction: row;
     justify-content: center;
   }
+}
+ul {
+  list-style: none;
 }
 .nave {
   padding-top: 2rem;
@@ -71,7 +73,7 @@ nav a {
 .nave :hover {
   background-color: blanchedalmond;
   border-radius: 0.5rem;
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
 .nave :active {
   color: burlywood;
@@ -82,7 +84,7 @@ nav a {
   }
 }
 article + article {
-  border-top: solid black 2px;
+  border-top: solid #283618 0.2rem;
 }
 @media screen and (min-width: 768px) {
   main article {
@@ -138,4 +140,12 @@ article + article {
   .hire {
     display: none;
   }
+}
+.footera {
+  display: flex;
+  justify-content: center;
+  background-color: #283618;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
 }
