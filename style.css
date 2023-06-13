@@ -3,9 +3,18 @@
   font-family: sans-serif;
 }
 html {
+  --main-color: azure;
+  --first-background: gray;
+  --header-color: darkolivegreen;
+  --gradient-color: #283618;
+  --font-color: salmon;
+  --styling-color: blanchedalmond;
+  --active-color: burlywood;
+  --selec-background: black;
+  --selec-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: gray;
-  color: azure;
+  background-color: var(--first-background);
+  color: var(--main-color);
   font-size: 16px;
 }
 @media screen and (min-width: 768px) {
@@ -28,7 +37,7 @@ h3 {
 }
 .header {
   text-align: center;
-  background-image: linear-gradient(darkolivegreen, #283618);
+  background-image: linear-gradient(var(--header-color), var(--gradient-color));
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
@@ -68,15 +77,15 @@ ul {
 }
 nav a {
   font-weight: bold;
-  color: salmon;
+  color: var(--font-color);
 }
 .nave :hover {
-  background-color: blanchedalmond;
+  background-color: var(--styling-color);
   border-radius: 0.5rem;
   padding: 0.4rem;
 }
 .nave :active {
-  color: burlywood;
+  color: var(--active-color);
 }
 @media print {
   nav {
@@ -84,7 +93,7 @@ nav a {
   }
 }
 article + article {
-  border-top: solid #283618 0.2rem;
+  border-top: solid var(--gradient-color) 0.2rem;
 }
 @media screen and (min-width: 768px) {
   main article {
@@ -92,8 +101,8 @@ article + article {
   }
 }
 ::selection {
-  color: white;
-  background-color: black;
+  color: var(--selec-color);
+  background-color: var(--selec-background);
 }
 .profession::after {
   content: "💻";
@@ -127,8 +136,8 @@ article + article {
   right: 2rem;
   top: 2rem;
   padding: 0.5rem;
-  background-color: blanchedalmond;
-  color: salmon;
+  background-color: var(--styling-color);
+  color: var(--font-color);
   font-weight: bold;
 }
 @media screen and (min-width: 992px) {
@@ -144,7 +153,7 @@ article + article {
 .footera {
   display: flex;
   justify-content: center;
-  background-color: #283618;
+  background-color: var(--gradient-color);
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
