@@ -81,7 +81,7 @@ nav a {
 }
 .nave :hover {
   background-color: var(--styling-color);
-  transition: background-color 0.7s;
+  transition: background-color 0.5s ease-in;
   border-radius: 0.5rem;
   padding: 0.4rem;
 }
@@ -145,6 +145,12 @@ article + article {
   background-color: var(--styling-color);
   color: var(--font-color);
   font-weight: bold;
+  transform-origin: top right;
+  transition: transform 0.5s;
+}
+.header:hover .hire,
+.header:focus-within .hire {
+  transform: scale(1.2);
 }
 @media screen and (min-width: 992px) {
   .hire {
