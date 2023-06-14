@@ -81,11 +81,17 @@ nav a {
 }
 .nave :hover {
   background-color: var(--styling-color);
+  transition: background-color 0.7s;
   border-radius: 0.5rem;
   padding: 0.4rem;
 }
 .nave :active {
   color: var(--active-color);
+}
+.nave :focus {
+  border: 0.2rem solid var(--font-color);
+  border-radius: 0.5rem;
+  padding: 0.4rem;
 }
 @media print {
   nav {
