@@ -45,7 +45,7 @@ h3 {
   top: 0;
   z-index: 2;
 }
-div {
+.header-div {
   font-size: 3rem;
 }
 h1 {
@@ -67,6 +67,15 @@ nav {
   nav {
     flex-direction: row;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-article,
+  .exp-article,
+  .skill-article,
+  .contact-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 ul {
